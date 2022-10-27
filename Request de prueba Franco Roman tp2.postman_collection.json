@@ -1,0 +1,538 @@
+{
+	"info": {
+		"_postman_id": "d9695508-80ca-48ce-8414-ba9ee10d74eb",
+		"name": "Request de prueba Franco Roman tp2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21121887"
+	},
+	"item": [
+		{
+			"name": "1 - Crear empleado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Sol\",\r\n    \"apellido\" : \"Ramirez\",\r\n    \"numeroDeDocumento\" : 12345678,\r\n    \"email\" : \"solapp@yahoo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/empleado",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - Crear empleado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Franco\",\r\n    \"apellido\" : \"Roman\",\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"email\" : \"francoroman@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/empleado",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Crear empleado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Esteban\",\r\n    \"apellido\" : \"Quito\",\r\n    \"numeroDeDocumento\" : 98765432,\r\n    \"email\" : \"banquito@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/empleado",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - Crear empleado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Pedro\",\r\n    \"apellido\" : \"Goyena\",\r\n    \"numeroDeDocumento\" : 2000000,\r\n    \"email\" : \"p.goyena@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/empleado",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1 - Crear tipo de jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - Crear tipo de jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Turno extra\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Crear tipo de jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Turno combinado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - Crear tipo de jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Dia libre\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"fecha\" : \"2022-02-06\",\r\n    \"horaComienzo\" : \"10:00:00\",\r\n    \"horaFinalizacion\" : \"18:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 12345678,\r\n    \"fecha\" : \"2022-02-06\",\r\n    \"horaComienzo\" : \"09:00:00\",\r\n    \"horaFinalizacion\" : \"17:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Crear jornada laboral  - FALLO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 98765432,\r\n    \"fecha\" : \"2022-02-06\",\r\n    \"horaComienzo\" : \"09:00:00\",\r\n    \"horaFinalizacion\" : \"17:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 2000000,\r\n    \"fecha\" : \"2022-08-06\",\r\n    \"horaComienzo\" : \"09:00:00\",\r\n    \"horaFinalizacion\" : \"21:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno combinado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5 - Crear empleado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Lionel\",\r\n    \"apellido\" : \"Messi\",\r\n    \"numeroDeDocumento\" : 112233445,\r\n    \"email\" : \"liomessi10@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/empleado",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1 - Set empleado de vacaciones",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/empleado/vacaciones?numeroDeDocumento=112233445&estadoVacaciones=true",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado",
+						"vacaciones"
+					],
+					"query": [
+						{
+							"key": "numeroDeDocumento",
+							"value": "112233445"
+						},
+						{
+							"key": "estadoVacaciones",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"fecha\" : \"2022-02-07\",\r\n    \"horaComienzo\" : \"10:00:00\",\r\n    \"horaFinalizacion\" : \"18:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"fecha\" : \"2022-02-08\",\r\n    \"horaComienzo\" : \"10:00:00\",\r\n    \"horaFinalizacion\" : \"18:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"fecha\" : \"2022-02-09\",\r\n    \"horaComienzo\" : \"10:00:00\",\r\n    \"horaFinalizacion\" : \"18:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"fecha\" : \"2022-02-10\",\r\n    \"horaComienzo\" : \"10:00:00\",\r\n    \"horaFinalizacion\" : \"18:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9 - Crear jornada laboral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroDeDocumento\" : 42115945,\r\n    \"fecha\" : \"2022-02-11\",\r\n    \"horaComienzo\" : \"10:00:00\",\r\n    \"horaFinalizacion\" : \"18:00:00\",\r\n    \"tipoDeJornadaLaboral\" : \"Turno normal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/jornada/laboral",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jornada",
+						"laboral"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
