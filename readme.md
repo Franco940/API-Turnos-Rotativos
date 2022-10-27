@@ -80,7 +80,7 @@ Por ejemplo:
 ```sh
 {
     "numeroDeDocumento" : 12312312,
-    "fecha" : "05-03-2022",
+    "fecha" : "2022-03-05",
     "horaComienzo" : "10:00:00",
     "horaFinalizacion" : "18:00:00",
     "tipoDeJornadaLaboral" : "Turno normal"
@@ -93,8 +93,8 @@ Para ingresar un día libre, simplemente lo indica poniendo "Dia libre" en el at
 Las siguientes causas devuelven un mensaje de erro con un estado HTTP 400:
 - Cualquier campo vacío
 - Número de documento menor a 1.000.000 o mayor a 999.999.999
-- Fecha incorrecta. El formato correcto es: día/mes/año. Completando con 0(cero) en el día y mes si el número es menor a 10.
-  Ejemplo: 01-01-2000 ó 20-12-2000
+- Fecha incorrecta. El formato correcto es: año/mes/día. Completando con 0(cero) en el día y mes si el número es menor a 10.
+  Ejemplo: 2000-01-01 ó 2000-12-20
 - Hora de comienzo o finalizacion incorrecta. Ej: La hora no puede ser mayor a 24 y, los minutos y segundos mayores a 59.
   Como tambien no se aceptan numeros negativos
 - Tipo de jornada laboral incorrecto
@@ -121,7 +121,7 @@ Por ejemplo:
 ```sh
 {
     "numeroDeDocumento" : 12312312,
-    "fecha" : "05-03-2022",
+    "fecha" : "2022-03-05",
     "nuevasHorasDeTrabajo" : 8
 }
 ```
@@ -129,7 +129,7 @@ Por ejemplo:
 Las siguientes causas devuelven un mensaje de erro con un estado HTTP 400:
 - Cualquier campo vacío
 - Número de documento menor a 1.000.000 o mayor a 999.999.999
-- Fecha incorrecta. El formato correcto es: día/mes/año. Completando con 0(cero) en el día y mes si el número es menor a 10.
+- Fecha incorrecta. El formato correcto es: año/mes/día. Completando con 0(cero) en el día y mes si el número es menor a 10.
 - Si no se encuentra un empleado con su número de documento
 - Si no se encontró ninguna jornada de trabajo con la fecha y el número de documento
 - Nuevas horas de trabajo menor a 2 horas y mayor a 12
