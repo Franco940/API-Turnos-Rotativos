@@ -126,7 +126,7 @@ Por ejemplo:
 }
 ```
 #### Causa de excepciones
-Las siguientes causas devuelven un mensaje de erro con un estado HTTP 400:
+Las siguientes causas devuelven un mensaje de error con un estado HTTP 400:
 - Cualquier campo vacío
 - Número de documento menor a 1.000.000 o mayor a 999.999.999
 - Fecha incorrecta. El formato correcto es: año/mes/día. Completando con 0(cero) en el día y mes si el número es menor a 10.
@@ -157,5 +157,5 @@ Ejemplo de respuesta:
         "numeroDeDocumento": 2000000,
         "tipoJornada": "Turno combinado",
         "horasTrabajadas": 12
-    }
+}
 ```
